@@ -1,0 +1,95 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-collapse{
+width:46%;
+}
+.banner-info h2{
+font-size: 60px;
+color:#FABE4C;
+text-transform: uppercase;
+line-height: 70px;
+}
+.banner-info span{
+color:#363958;
+}
+.banner-info p{
+	color:#3E3E3E;
+	font-size:14px;
+}
+.btn-shop{
+	background: #A4BC46;
+	color:#fff;
+	padding:10px 20px;
+	border-radius: 6px;
+}
+.btn-shop i{
+	margin-right: 5px;
+}
+.product-details h5{
+	color:#363958;
+	font-size: 24px;
+}
+.product-details p{
+	color:#3E3E3E;
+	font-size:14px;
+}
+.product-price span{
+	font-size: 36px;
+	color:#FABE4C;
+}
+
+.product-img{
+background:#F1F1F1;
+
+}
+.service img{
+	/*width: 20%; */
+	height:65px;
+}
+.service {
+	padding-top:20px;
+}
+.service-info{
+	margin-left:10px;
+}
+.service-info h5{
+	font-size:20px;
+	color:#363958;
+}
+.service-info p{
+	font-size:14px;
+	color:#363958;
+}
+.footer{
+	height:200px;
+	/*background: #A1A1A1;*/
+	}
+.navbar-nav li{
+	padding:10px 15px;
+}
+footer .btn{
+	margin-top:4px;
+	text-align: center;
+}
+
+
+@media (max-width: 992px) {
+	.navbar-collapse{
+	width:42%;
+	}
+	.btn-shop{
+	padding:8px;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	.service{
+		display: block !important;
+		margin:auto !important;
+		text-align: center;
+	}
+	
+
+}
